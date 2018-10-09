@@ -1,0 +1,30 @@
+<!--pages/About/About.wxml-->
+<!-- <text>pages/About/About.wxml</text> -->
+<view class='gy1'>
+  <image src='../../images/qyln.jpg'></image>
+</view>
+<view class='about'>
+  <view class='line_y'>
+  </view>
+  <text>关于我们</text>
+</view>
+<view class='gy2'>
+  <view class='gy2_row'>
+    <image src='../../images/guanyu_jieshao.png'></image>
+    <text class='text_left'>公司介绍</text>
+    <image src='../../images/right-gray.png'></image>
+  </view>
+  <view class='gy2_row'>
+    <image src='../../images/guanyu_youshi.png'></image>
+    <text class='text_left'>公司优势</text>
+    <image src='../../images/right-gray.png'></image>
+  </view>
+  <view class='gy2_row'>
+    <image src='../../images/guanyu_lianxi.png'></image>
+    <text class='text_left'>联系我们</text>
+    <image src='../../images/right-gray.png'></image>
+  </view>
+</view>
+<view class='gy3'>
+  <button bindtap='calling'>点击拨打客服电话</button>
+</view>

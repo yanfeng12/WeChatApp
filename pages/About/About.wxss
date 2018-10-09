@@ -1,0 +1,44 @@
+.gy1 image{
+  height: 200rpx;
+  width: 750rpx;
+}
+.about{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10rpx;
+  color: black;
+  background-color: lightgray;
+}
+.line_y{
+  width: 3px;
+  height: 18px;
+  display: inline-block;
+  background-color: greenyellow;
+  /* margin-right: 10rpx; */
+}
+.about text{
+  margin-left: 10rpx;
+  line-height: 18px;
+}
+.gy2_row{
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+  margin-top: 5px;
+  height: 40px;
+}
+.gy2_row image:nth-of-type(1){
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.gy2_row text_left{
+  line-height: 18px;
+}
+.gy2_row image:nth-of-type(2){
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}

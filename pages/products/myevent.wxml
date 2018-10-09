@@ -1,0 +1,8 @@
+<!--pages/products/myevent.wxml-->
+<!-- <text>pages/products/myevent.wxml</text> -->
+<!-- 
+通过事件进行参数传递,event.target.dataset.hi就能取到data-hi所对应的值
+ -->
+<view id="tapTest" data-hi="myimg" bindtap="tapName"> 跳转到myimg! </view>
+
+<button bindtap='calling'>客服热线</button>

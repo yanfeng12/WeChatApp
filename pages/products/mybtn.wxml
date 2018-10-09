@@ -1,0 +1,4 @@
+<!--pages/products/mybtn.wxml-->
+<!-- <text>pages/products/mybtn.wxml</text> -->
+<button bindtap='setbiaoti1'>按钮1</button>
+<button bindtap='setbiaoti2'>按钮2</button>

@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/serverice/serverice",
+    "pages/products/products",
+    "pages/products/mybtn",
+    "pages/products/myimg",
+    "pages/products/myevent",
+    "pages/News/News",
+    "pages/About/About"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eeeeee",
+    "backgroundColor": "#eeeeee",
+    "navigationBarTitleText": "标题",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#f7f7f7",
+    "selectedColor": "#ff3333",
+    "color": "#5b5b5b",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "首页",
+        "iconPath": "images/home-off.png",
+        "selectedIconPath": "images/home-on.png"
+      },
+      {
+        "pagePath": "pages/serverice/serverice",
+        "text": "服务项目",
+        "iconPath": "images/fuwu-off.png",
+        "selectedIconPath": "images/fuwu-on.png"
+      },
+      {
+        "pagePath": "pages/products/products",
+        "text": "产品案例",
+        "iconPath": "images/chanpin-off.png",
+        "selectedIconPath": "images/chanpin-on.png"
+      },
+      {
+        "pagePath": "pages/News/News",
+        "text": "资讯信息",
+        "iconPath": "images/news-off.png",
+        "selectedIconPath": "images/new-on.png"
+      },
+      {
+        "pagePath": "pages/About/About",
+        "text": "关于我们",
+        "iconPath": "images/kefu-off.png",
+        "selectedIconPath": "images/kefu-on.png"
+      }
+    ]
+  }
+}
