@@ -1,0 +1,22 @@
+.contact-ct1{
+  text-align: center;
+}
+.contact-img{
+  margin: 5rpx auto;
+}
+.in-img{
+  width: 164px;
+  height: 100px;
+}
+.contact-title{
+  margin-top: 20rpx;
+}
+.contact-content{
+  text-indent: 2em;
+  margin-top: 20rpx;
+}
+.contact-addr{
+  /* text-align: center; */
+  text-indent: 2em;
+  margin-top: 20rpx;
+}

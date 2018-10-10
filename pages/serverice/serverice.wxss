@@ -1,1 +1,32 @@
-/* pages/serverice/serverice.wxss */
+.server-row{
+    padding: 10rpx;
+    display: flex;
+    align-items: center;
+}
+.server-row image{
+    width: 60px;
+    height: 60px;
+}
+.two-line-text{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.txt1{
+    margin: 3px 3px;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.txt2{
+    margin: 3px 3px;
+    font-size: 12px;
+     color: #656565;
+    white-space: nowrap;
+}
+.txt3{
+    margin: 3px 3px;
+    font-size: 13px;
+    color: #656565;
+    white-space: nowrap;
+}

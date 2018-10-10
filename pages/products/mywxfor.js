@@ -1,38 +1,22 @@
-// pages/News/News.js
+// pages/products/mywxfor.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: [],
-    hidden: false
+    array: [{
+      message: 'foo',
+    }, {
+      message: 'bar'
+    }]
   },
-  fetchDetail: function () {
-    var that = this;
-    wx.request({
-      url: 'http://m.hzyaoyi.cn/wx/zixun_list.asp',
-      success: function (res) {
-        console.log(res);
-        that.setData({
-          array: res.data
-        })
-        setTimeout(function () {
-          that.setData({
-            hidden: true
-          })
-        }, 300)
-      }
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      hidden: false
-    });
-    this.fetchDetail();
+
   },
 
   /**

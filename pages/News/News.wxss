@@ -1,1 +1,7 @@
-/* pages/News/News.wxss */
+.news_row{
+  height: 100rpx;
+  width: 100%;
+  line-height: 100rpx;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+}

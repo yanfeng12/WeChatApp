@@ -4,12 +4,19 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/serverice/serverice",
+    "pages/serverice/servermore",
     "pages/products/products",
     "pages/products/mybtn",
     "pages/products/myimg",
     "pages/products/myevent",
+    "pages/products/mywxfor",
     "pages/News/News",
-    "pages/About/About"
+    "pages/News/Newsmore",
+    "pages/About/About",
+    "pages/About/Strengths",
+    "pages/About/Introduce",
+    "pages/About/Connection",
+    "pages/Template/Template"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,16 @@
+<view class="contact">
+	<view class="contact-ct1">
+		<view class="contact-img">
+			<image src="{{img}}" class="in-img" background-size="cover" model="scaleToFill"></image>
+		</view>
+		<view class="contact-title">{{title}}</view>
+	</view>
+	<view class="contact-content">{{intro}}</view>
+
+	<view class="contact-addr">
+		<view class="contact-tab">{{contab}}</view>
+		<view>地址: {{address}}</view>
+		<view>联系电话：{{mobile}}</view>
+		<view>商务合作：{{email}}</view>
+	</view>
+</view>

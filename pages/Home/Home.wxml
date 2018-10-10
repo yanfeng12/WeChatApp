@@ -1,2 +1,32 @@
-<!--pages/Home/Home.wxml-->
-<!-- <text>pages/Home/Home.wxml</text> -->
+<import src="../Template/Template.wxml" />
+<view>
+  <template is="index_index_scroll_tmpl" data="{{...index_index_scroll_tmpl}}" />
+</view>
+<view class="text">
+  <view class="line_y"></view>
+  <text>服务项目</text>
+</view>
+<view class="section index-nav">
+  <template is="index_index_navs_tmpl" data="{{...index_index_navs_tmpl}}" />
+</view>
+<view class="text">
+  <view class="line_y"></view>
+  <text>最新案例</text>
+</view>
+<view class="line case">
+  <image class="case-img" src="/images/anli01.jpg"></image>
+  <view class="two-line-text">
+    <text class="text-center txt1">杭州美耀湾小区门禁系统</text>
+    <text class="text-center txt2">工程时间：2017年/3个月</text>
+    <text class="text-center txt3">覆盖全小区东门和南门，以及楼道系统</text>
+  </view>
+</view>
+<view class="text">
+  <view class="line_y"></view>
+  <text>最新资讯</text>
+</view>
+<view>
+  <view class='news_row' wx:for="{{zixun}}">
+    <text>{{item.title}}</text>
+  </view>
+</view>

@@ -9,22 +9,26 @@
   <text>关于我们</text>
 </view>
 <view class='gy2'>
-  <view class='gy2_row'>
+  <view class='gy2_row' bindtap='navTointroduce' data-hi="Introduce">
     <image src='../../images/guanyu_jieshao.png'></image>
     <text class='text_left'>公司介绍</text>
     <image src='../../images/right-gray.png'></image>
   </view>
-  <view class='gy2_row'>
-    <image src='../../images/guanyu_youshi.png'></image>
-    <text class='text_left'>公司优势</text>
-    <image src='../../images/right-gray.png'></image>
-  </view>
-  <view class='gy2_row'>
-    <image src='../../images/guanyu_lianxi.png'></image>
-    <text class='text_left'>联系我们</text>
-    <image src='../../images/right-gray.png'></image>
-  </view>
+  <navigator url='Strengths?id={{999}}'>
+    <view class='gy2_row'>
+      <image src='../../images/guanyu_youshi.png'></image>
+      <text class='text_left'>公司优势</text>
+      <image src='../../images/right-gray.png'></image>
+    </view>
+  </navigator>
+  <navigator url='Connection'>
+    <view class='gy2_row'>
+      <image src='../../images/guanyu_lianxi.png'></image>
+      <text class='text_left'>联系我们</text>
+      <image src='../../images/right-gray.png'></image>
+    </view>
+  </navigator>
 </view>
-<view class='gy3'>
+<view class='gy2_row'>
   <button bindtap='calling'>点击拨打客服电话</button>
 </view>

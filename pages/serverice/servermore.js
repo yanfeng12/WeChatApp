@@ -1,21 +1,22 @@
-// pages/News/News.js
+// pages/serverice/servermore.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: [],
+    detail: [],
     hidden: false
   },
-  fetchDetail: function () {
+  fetchDetail: function (id) {
     var that = this;
     wx.request({
-      url: 'http://m.hzyaoyi.cn/wx/zixun_list.asp',
+      url: 'http://m.hzyaoyi.cn/wx/fuwu_xinxi.asp',
+      data: { id: id },
       success: function (res) {
         console.log(res);
         that.setData({
-          array: res.data
+          detail: res.data[0]
         })
         setTimeout(function () {
           that.setData({
@@ -32,7 +33,7 @@ Page({
     this.setData({
       hidden: false
     });
-    this.fetchDetail();
+    this.fetchDetail(options.id);
   },
 
   /**

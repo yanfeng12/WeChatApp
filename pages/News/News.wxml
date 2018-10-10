@@ -1,2 +1,10 @@
-<!--pages/News/News.wxml-->
-<text>pages/News/News.wxml</text>
+<view>
+  <view class='news_row' wx:for="{{array}}">
+    <navigator url='Newsmore?id={{item.id}}'>
+      <text>{{item.title}}</text>
+    </navigator>
+  </view>
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+</view>

@@ -1,0 +1,21 @@
+<template name="index_index_scroll_tmpl">
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperchange">
+    <block wx:for="{{images}}" wx:key="item.id">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</template>
+<!-- 
+<view> 是一个组件，会在页面上做渲染；<block>不是一个组件，它仅仅是一个包装元素，只接受控制属性，不会在页面中做任何渲染。
+ -->
+<!--index_index_navs-->
+<template name="index_index_navs_tmpl">
+  <block wx:for="{{navs}}" wx:key="item.id">
+    <view class="l-c-c" catchtap="go" data-type="{{item.text}}">
+      <image src="{{item.image}}" class="slide-image" />
+      <text>{{item.text}}</text>
+    </view>
+  </block>
+</template>

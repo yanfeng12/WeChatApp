@@ -2,3 +2,4 @@
 <navigator url='mybtn'><text>button按钮</text></navigator>
 <navigator url='myimg'><text>img按钮</text></navigator>
 <navigator url='myevent'><text>事件按钮</text></navigator>
+<navigator url='mywxfor'><text>wxfor</text></navigator>

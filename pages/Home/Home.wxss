@@ -1,1 +1,96 @@
-/* pages/Home/Home.wxss */
+.slide-image {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+.text{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10rpx;
+  color: black;
+  background-color: lightgray;
+}
+.line_y{
+  width: 3px;
+  height: 18px;
+  display: inline-block;
+  background-color: green;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  
+}
+.text text{
+  line-height: 18px;
+}
+/*分类*/
+.index-nav {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  background-color: #fff;
+  color: #646464;
+}
+
+.index-nav view {
+  flex: 1;
+  flex-direction: column;
+  border-right: 1px solid #F2f2f2;
+}
+.index-nav image {
+  width: 38px;
+  height: 38px;
+}
+.index-nav text {
+  font-size: 16px;
+}
+/*4个服务项目均匀排列*/
+.l-c-c {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.case{
+    padding: 10rpx;
+    display: flex;
+    align-items: center;
+}
+.case-img{
+    width: 80px;
+    height: 80px;
+}
+.two-line-text{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.text-center{
+    margin: 0 auto;
+}
+.txt1{
+    margin: 3px 3px;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.txt2{
+    margin: 3px 3px;
+    font-size: 12px;
+     color: #656565;
+    white-space: nowrap;
+}
+.txt3{
+    margin: 3px 3px;
+    font-size: 13px;
+    color: #656565;
+    white-space: nowrap;
+}
+.news_row{
+  height: 100rpx;
+  width: 100%;
+  line-height: 100rpx;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+}

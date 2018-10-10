@@ -1,0 +1,18 @@
+.title {
+  text-align: center;
+  padding: 10rpx;
+}
+
+.name {
+  text-align: center;
+  color: #777;
+}
+
+.content {
+  color: #333;
+  margin-top: 20rpx;
+  line-height: 1.4;
+  word-wrap: break-word;
+  word-break: normal;
+  font-size: 14px;
+}

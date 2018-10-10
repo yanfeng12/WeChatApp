@@ -7,7 +7,23 @@ Page({
   data: {
 
   },
-
+  calling:function(event){
+    wx.makePhoneCall({
+      phoneNumber: '10086',
+      success: function () {
+        console.log("拨打电话成功！")
+      },
+      fail: function () {
+        console.log("拨打电话失败！")
+      }
+    })
+  },
+  navTointroduce:function(event){
+    console.log(event.currentTarget.dataset.hi)
+    wx.navigateTo({
+      url: event.currentTarget.dataset.hi,
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,15 @@
+<view class="container">
+  <view>
+    <view class="mytile">
+      <view class="topic-tit">{{detail.title}}{{detail.id}}</view>
+    </view>
+
+    <view class="mydesc">
+      <text>{{detail.content}}</text>
+    </view>
+  </view>
+
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+</view>

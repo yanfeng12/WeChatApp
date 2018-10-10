@@ -21,7 +21,7 @@
   margin-left: 10rpx;
   line-height: 18px;
 }
-.gy2_row{
+/* .gy2_row{
   display: flex;
   align-items: center;
   border: 1px solid lightgrey;
@@ -38,7 +38,31 @@
   line-height: 18px;
 }
 .gy2_row image:nth-of-type(2){
-  margin-right: 10px;
+  margin-left: 30px;
   width: 25px;
   height: 25px;
+} */
+.gy2_row{
+  width: 100%;
+  margin-top: 15rpx;
+  font-size: 34rpx;
+  border-top: 1rpx solid #d9d9d9;
+  border-bottom: 1rpx solid #d9d9d9;
+  background-color: #fff;
+  padding: 20rpx 25rpx;
+  display: flex;
+  align-items: center;
+}
+.gy2_row image:nth-of-type(1){
+  width: 56rpx;
+  height: 56rpx;
+}
+.gy2_row text{
+  flex: 1;
+  margin-left: 30rpx;
+}
+.gy2_row image:nth-of-type(2){
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 30rpx;
 }

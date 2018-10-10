@@ -1,38 +1,24 @@
-// pages/News/News.js
+// pages/About/Connection.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: [],
-    hidden: false
+    img: '../../images/wx.jpg',
+    title: "河南看一看公司",
+    intro: "公司经营范围：软件设计，网站建设，其他互联网软件开发",
+    contab: "联系方式",
+    address: "洛阳863创智广场",
+    mobile: "123-1234-xxxx",
+    email: "xxxx@qq.com"
   },
-  fetchDetail: function () {
-    var that = this;
-    wx.request({
-      url: 'http://m.hzyaoyi.cn/wx/zixun_list.asp',
-      success: function (res) {
-        console.log(res);
-        that.setData({
-          array: res.data
-        })
-        setTimeout(function () {
-          that.setData({
-            hidden: true
-          })
-        }, 300)
-      }
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      hidden: false
-    });
-    this.fetchDetail();
+
   },
 
   /**

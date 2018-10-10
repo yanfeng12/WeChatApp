@@ -1,0 +1,11 @@
+<view>
+  <view class='title'>
+    <text>{{detail.title}}</text>
+  </view>
+  <view class='content'>
+    <text>{{detail.content}}</text>
+  </view>
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+</view>

@@ -1,21 +1,25 @@
-// pages/News/News.js
+// pages/About/Strengths.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: [],
+    title: '话题详情',
+    detail: {},
     hidden: false
   },
-  fetchDetail: function () {
+  fetchDetail: function (id) {
     var that = this;
     wx.request({
-      url: 'http://m.hzyaoyi.cn/wx/zixun_list.asp',
+      url: 'http://m.hzyaoyi.cn/wx/guanyu_info.asp',
+      data: { id: id },
       success: function (res) {
         console.log(res);
+        //res.data[0].created = Util.formatTime(Util.transLocalTime(res.data[0].created));
         that.setData({
-          array: res.data
+          //detail: JSON.parse(decodeURIComponent(JSON.stringify(res.data[0])))
+          detail: res.data[0]
         })
         setTimeout(function () {
           that.setData({
@@ -31,8 +35,10 @@ Page({
   onLoad: function (options) {
     this.setData({
       hidden: false
-    });
-    this.fetchDetail();
+    })
+    //  <navigator url='Strengths?id={{999}}'>
+    //id=999
+    this.fetchDetail(options.id);
   },
 
   /**

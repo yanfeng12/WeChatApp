@@ -1,2 +1,16 @@
-<!--pages/serverice/serverice.wxml-->
-<text>pages/serverice/serverice.wxml</text>
+<view>
+  <view  wx:for="{{array}}">
+    <!-- image src=""加引号 -->
+    <navigator url='servermore?id={{item.id}}' class='server-row'>
+      <image src="{{item.img}}"></image>
+      <view class="two-line-text">
+        <text class="txt1">{{item.title}}</text>
+        <text class="txt2">{{item.shijian}}</text>
+        <text class="txt3">{{item.shuoming}}</text>
+      </view>
+    </navigator>
+  </view>
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+</view>
